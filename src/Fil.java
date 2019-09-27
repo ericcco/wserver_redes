@@ -41,7 +41,7 @@ public class Fil extends Thread{
 			String capGZip = "HTTP/1.1 200 OK \n" + "Content-Type: application/x-gzip \n" + "Content-Disposition: filename = index.html.zip.gz \n\n";
 			String capTot = "HTTP/1.1 200 OK \n" + "Content-Type: application/x-gzip \n" + "Content-Disposition: filename = index.html.asc.zip.gz \n\n";
 			
-			//si hi ha index.html entra dins tot els ifs, sino dw
+			//check if index.html exists
 			
 			if ( ((var.indexOf("index.html") >-1 ) && (var.indexOf("asc=true") > -1) && (var.indexOf("zip=true") >-1) && (var.indexOf("gzip=true") >-1)) ){
 				
@@ -130,7 +130,6 @@ public class Fil extends Thread{
 						 	fis.close();
 						}
 						else {					
-							//System.out.println("No has posat cap opció valida");
 							os.close();
 						}
 		}catch(Exception e) {
