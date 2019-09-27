@@ -1,3 +1,3 @@
 # wserver_redes
-UAB project about networking. Simple Web Server in Java.
+UAB project for network course. Simple Web Server in Java.
 
