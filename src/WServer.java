@@ -21,7 +21,7 @@ public class WServer {
 			}
 			
 		}catch(Exception e) {
-			System.out.println("Wrong hole");
+			System.out.println("Nope");
 		}
 	}
 }
