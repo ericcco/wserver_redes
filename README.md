@@ -1,2 +1,3 @@
 # wserver_redes
-Entrega primera practica xarxes.
+UAB project about networking. Simple Web Server in Java.
+
